@@ -3,11 +3,10 @@ googl-php
 
 Introduction
 ------------
-googl-php is a small and simple PHP class intended to use with the Google URL shortening service "Goo.gl" and - of course - it's open source.
+googl-php is a small and simple PHP class intended to use with the Google URL shortening service "Goo.gl" and licensed under the GNU GPL v3.
 
 Functions
 ---------
-
 The class currently supports 2 actions:
   * *Shorten* a URL
   * *Expand* (looking up) an already shortened URL
@@ -21,10 +20,10 @@ require_once('Googl.class.php');
 
 $googl = new Googl('YOUR_API_KEY');
 
-// Shorten a URL
+// Shorten URL
 $googl->shorten('http://www.google.com/');
 
-// Look up which long URL is behind a Goo.gl URL
+// Look up long URL
 $googl->expand('http://goo.gl/fbsS');
 
 unset($googl);
