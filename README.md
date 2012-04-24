@@ -33,7 +33,7 @@ API key
 -------
 You don't need an API key to use the class (=the shortening service). 
 
-But as Google writes in their own "Getting Started" guide, it's "highly recommended" to use one, and clicking a button doesn't really hurt, right? ;)
+But as Google writes in their own "Getting Started" guide, it's "highly recommended" to use one. And clicking a button doesn't really hurt, right?
 
 Further info
 ------------
