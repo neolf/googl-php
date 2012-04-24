@@ -2,9 +2,7 @@
 /**
  * This file is part of googl-php
  *
- * http://googl-php.googlecode.com
- *
- * Copyright 2011 by Sebastian Wyder <sebastian.wyder@sunrise.ch>
+ * https://github.com/sebiw/googl-php
  *
  * googl-php is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
