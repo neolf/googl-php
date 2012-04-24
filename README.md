@@ -37,4 +37,4 @@ But as Google writes in their own "Getting Started" guide, it's "highly recommen
 
 Further info
 ------------
-For further information about Goo.gl and it's API, please visit: http://code.google.com/apis/urlshortener/.
+For further information about Goo.gl and its API, please visit: https://developers.google.com/url-shortener/.
