@@ -7,9 +7,9 @@ googl-php is a small and simple PHP class intended to use with the Google URL sh
 
 Functions
 ---------
-The class currently supports 2 actions:
+The class currently supports 2 methods:
   * *Shorten* a URL
-  * *Expand* (looking up) an already shortened URL
+  * *Expand* (look up) an already shortened URL
 
 Usage
 -----
