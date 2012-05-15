@@ -56,6 +56,8 @@ class Googl
 		curl_setopt($this->ch, CURLOPT_POST, count($data));
 		curl_setopt($this->ch, CURLOPT_POSTFIELDS, $data_string);
 		curl_setopt($this->ch, CURLOPT_HTTPHEADER, Array('Content-Type: application/json'));
+		curl_setopt($this->ch, CURLOPT_SSL_VERIFYPEER, FALSE);
+		curl_setopt($this->ch, CURLOPT_SSL_VERIFYHOST, FALSE);
 
 		if ( $extended || $this->extended) {
 			return json_decode(curl_exec($this->ch));
@@ -67,6 +69,8 @@ class Googl
 	public function expand($url, $extended = false) {
 		# Set cURL options
 		curl_setopt($this->ch, CURLOPT_URL, $this->target.'shortUrl='.$url);
+		curl_setopt($this->ch, CURLOPT_SSL_VERIFYPEER, FALSE);
+		curl_setopt($this->ch, CURLOPT_SSL_VERIFYHOST, FALSE);
 
 		if ( $extended || $this->extended ) {
 			return json_decode(curl_exec($this->ch));
